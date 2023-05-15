@@ -5,17 +5,17 @@
 <PageTitle>Test IA</PageTitle>
 
 
-<h3>Test IA</h3>
+<h3>Agrega tu código que quieres que se analice </h3>
 
 <EditForm Model="@assistant">
     <textarea class="form-control" id="txt" @bind="assistant.Prompt"
-              style="width:1000px;height:500px" placeholder="Ingresa tu texto aqui" />
+              style="width:1000px;height:500px" placeholder="Ingresa tu código aqui" />
 
     <br />
 
     <table>
         <tr>
-            <td><button class="btn btn-primary" @onclick="Generate">Consultar</button></td>
+            <td><button class="btn btn-primary" @onclick="Generate">Analizar código</button></td>
             <td><button class="btn btn-primary" @onclick="Clear">Borrar</button></td>
         </tr>
     </table>
@@ -23,7 +23,7 @@
     <br />
     <br />
 
-    <h2>Test</h2>
+    <h2>Análisis del código</h2>
     <br />
     <br />
 
